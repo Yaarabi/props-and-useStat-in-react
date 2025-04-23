@@ -1,0 +1,15 @@
+
+.user{
+  height: 50px;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 60%;
+  h2{
+    height: 40%;
+  }
+}

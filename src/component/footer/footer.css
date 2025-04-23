@@ -1,0 +1,33 @@
+img{
+    height: 20px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 0;
+    li{
+        display: flex;
+        align-items: center;
+        
+        a{
+            text-decoration: none;
+            padding-left: 6px;
+            font-size: 1.1rem;
+            color: black;
+        }
+    }
+}
+p{
+    margin: 0;
+    font-weight: bolder;
+}
+fieldset{
+    height: 80%;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

@@ -1,0 +1,40 @@
+.card {
+  height: 40%;
+  width: 40%;
+  background-color: rgb(204, 204, 204);
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000000;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+.card:hover{
+  transform: scale(1.02);
+  background-color: rgb(151, 151, 151);
+}
+.btns {
+  position: absolute;
+  top: 12.5vh;
+  display: flex;
+  justify-content: space-between;
+  width: 40vw;
+  
+  button{
+    height: 40px;
+    width: 150px;
+    /* border: none; */
+    background-color: rgb(148, 148, 148);
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  button:hover{
+    transform: scale(1.04);
+    background-color: rgb(97, 97, 97) 
+  }
+}
