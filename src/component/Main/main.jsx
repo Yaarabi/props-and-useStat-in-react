@@ -77,7 +77,14 @@ export default function Main() {
   }
   return (
     <>
-      <div className="card">
+
+      {content.map(ele =>(
+        <div className="card">
+        <Category name={ ele.name } imagePth={ ele.imagePth } descr={ ele.descr } />
+        </div>
+      ))}
+
+      {/* <div className="card">
       <Category name={ content[0].name } imagePth={ content[0].imagePth } descr={ content[0].descr } />
       </div>
       <div className="card">
@@ -88,7 +95,7 @@ export default function Main() {
       </div>
       <div className="card">
       <Category name={ content[3].name } imagePth={ content[3].imagePth } descr={ content[3].descr } />
-      </div>
+      </div> */}
       <div className="btns">
           <button onClick={()=>{change(0)}}>Category 1<img src="/asset/arrow-down.png" alt="down icon" /></button>
           <button onClick={()=>{change(1)}}>Category 2<img src="/asset/arrow-down.png" alt="down icon" /></button>
